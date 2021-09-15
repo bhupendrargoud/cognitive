@@ -1,0 +1,39 @@
+          body{
+          margin: 10px;
+          padding: 10px;
+          }
+
+          .main{
+             border: solid black 3px;
+             border-radius: 8px;
+              background-color:lightblue;
+             width: 240px;
+             text-align:center;
+             margin: 10px;
+             padding: 10px;
+          }
+        .title{
+         margin-bottom: 10px;
+         text-align:center;
+
+         width: 230px;
+         color:green;
+
+         }
+
+         input[type="button"]
+         {
+         background-color:grey;
+         color: black;
+         border: solid black 2px;
+         width:100%
+         }
+
+         input[type="text"]
+         {
+         background-color:green;
+         border: solid black 2px;
+         width:95%
+         }
+
+        
