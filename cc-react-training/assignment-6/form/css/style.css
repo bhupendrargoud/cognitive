@@ -1,0 +1,40 @@
+
+body{
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+    border-color: brown;
+}
+div {
+    text-size-adjust: 10px;
+    color: black;
+    position: relative;
+    text-align:left ;
+    padding: 20px;
+    margin: 10px;
+    border: 3px;
+    border-radius: 12px;
+    background-color: rgb(79, 240, 4);
+    
+}
+
+h1{
+    padding: 20px;
+    margin: 10px;
+    border: 3px;
+    border-radius: 12px;
+    background-color: rgb(79, 240, 4);
+}
+
+input {
+    width: 900px;
+    text-align: center;
+    position: absolute ;
+    left: 200px;
+    background-color: rgb(224, 211, 211);
+}
+button{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <title> User detials form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        
+
+    </head>
+
+    <body>
+      <form name="uform" action="/action_page.php" onsubmit="return validateForm()" method="POST">
+        <h1>Enter User details</h1>
+    
+        <div class="set">
+            User Name
+            <input type="text" name="Uname" id="fname">
+        </div>
+        <div>
+            Email id
+            <input type="email" name="email" id="fmail">
+        </div>
+        <div>
+           Phone Number
+           <input type="number" name="num" id="fnum">
+        </div>
+        <button> Submitt</button>
+    </form>
+    </body>
+</html>
