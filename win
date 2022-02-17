@@ -1,2 +1,5 @@
 AKIA2XW6QAS2TQXPNDM2
 +gEk2VrbbWIk36n3EDXqKdjM23KEFCQZJMi868vF
+
+
+aws iam attach-user-policy --user-name Bob --policy-arn arn:aws:iam::aws:policy/AdministratorAccess
