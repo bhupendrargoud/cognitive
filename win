@@ -3,3 +3,5 @@ AKIA2XW6QAS2TQXPNDM2
 
 
 aws iam attach-user-policy --user-name Bob --policy-arn arn:aws:iam::aws:policy/AdministratorAccess
+
+https://docs.aws.amazon.com/cli/latest/reference/iam/index.html
