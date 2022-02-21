@@ -7,3 +7,43 @@ aws iam attach-user-policy --user-name Bob --policy-arn arn:aws:iam::aws:policy/
 https://docs.aws.amazon.com/cli/latest/reference/iam/index.html
 
 https://ap-south-1.console.aws.amazon.com/ec2/v2/connect/ubuntu/i-0211fb99364cfcbbf
+
+
+
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+  name: my-deployment
+
+spec:
+
+  replicas: 4
+
+  strategy:
+
+    type: Recreate
+
+  selector:
+
+    matchLabels:
+
+      app: my-app
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: my-app
+
+    spec:
+
+      containers:
+
+        - name: nginx-cont
+
+          image: nginx
