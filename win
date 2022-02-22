@@ -93,3 +93,6 @@ spec:
         - name: nginx-cont
 
           image: nginx
+          
+          
+          https://impobld1cv1qgjq.sg.qlikcloud.com/settings/tools
