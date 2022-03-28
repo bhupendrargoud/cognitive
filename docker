@@ -1,0 +1,93 @@
+docker pull nextcloud
+ 
+docker images
+ 
+docker pull vault
+ 
+docker images
+ 
+docker pull caddy
+ 
+docker images
+ 
+docker pull eclipse-mosquitto
+ 
+docker images
+ 
+docker pull buildpack-deps
+ 
+docker images
+ 
+docker pull maven
+ 
+docker images
+ 
+docker pull rabbitmq
+ 
+docker images
+ 
+docker pull sonarqube
+ 
+docker inspect sonarqube
+ 
+docker pull redis
+ 
+docker images
+ 
+docker inspect redis
+ 
+docker pull httpd
+ 
+docker images
+ 
+docker inspect httpd
+ 
+docker pull node
+ 
+docker inspect node
+ 
+docker images
+ 
+docker pull traefik
+ 
+docker inspect traefik
+ 
+docker images
+ 
+docker pull memcached
+ 
+docker images
+ 
+docker pull consul
+ 
+docker inspect consul
+ 
+docker images
+ 
+docker pull influxdb
+ 
+docker inspect influxdb
+ 
+docker images
+ 
+docker pull openjdk
+ 
+docker inspect openjdk
+ 
+docker images
+ 
+docker pull golang
+ 
+docker inspect golang
+ 
+docker images
+ 
+docker container ls
+ 
+docker network ls
+ 
+docker network create devopsnets
+ 
+docker inspect devopsnets
+ 
+docker network ls
