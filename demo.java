@@ -1,6 +1,9 @@
 mafcat          bhupendra_rakesh
 		Br805011
 
+bhupendra_rakesh@thbs.com
+Br@8050885534
+
 windows		bhupendra_rakesh
 		Mar032022
 
